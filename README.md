@@ -1,3 +1,11 @@
+# ✅ 프로젝트 소개
+-  사용자가 가입한 동아리의 출석체크를 도와주는 앱
+-  실제 동아리 활동을 하면서 겪은 불편함을 바탕으로 직접 사용하기 위해서 앱 개발이 시작 되었습니다.
+-  기획, 디자인, 개발을 모두 함께 진행했습니다. 
+
+🔗 [앱 다운로드 링크](https://apps.apple.com/kr/app/오운완-눈바디-운동-기록/id6451257136)
+
+
 # Check It !
 
 <img src="https://user-images.githubusercontent.com/114602459/219393259-154fa9eb-4d3f-40cb-925a-08c50f1de041.png" width=150></img>&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/114602459/219393295-0285e3a2-a2b9-4487-9a41-362659e35f45.png" width=150></img>&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/114602459/219393301-0175a676-3e57-4cdc-b3ca-3bada492b241.png" width=150></img>&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/114602459/219393310-9f9a604a-f92a-4a50-9f67-0443d1ac126e.png" width=150></img>&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/114602459/219393314-f240605d-b9a3-41c9-ba43-00cb70d49d95.png" width=150></img>&nbsp;&nbsp;
@@ -9,33 +17,7 @@
 ### 프로젝트 기간
 > 2023.01.16 ~ 2023.02 (진행중)
 
-<br/>
 
-## 목차
-
-1. [앱 소개](#1-앱-소개)
-2. [주요 기능과 구현 영상](#2-주요-기능과-구현-영상)
-3. [사용자 흐름도 및 아키텍쳐](#3-사용자-흐름도-및-아키텍쳐)
-4. [개발 환경](#4-개발-환경)
-5. [기술 스택](#5-기술-스택)
-6. [참여자](#6-참여자)
-7. [라이센스](#7-라이센스)
-
-<br/>
-
-## 1. 앱 소개
-
-### ＞ ADS
-
-```
-사용자가 가입한 동아리의 출석체크를 도와주는 앱 입니다.
-```
-
-### ＞ 페르소나
-
-```
-오프라인 동아리 모임을 갖는 사람들
-```
 
 ### ＞ 개발 목표
 

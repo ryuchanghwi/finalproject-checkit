@@ -10,21 +10,14 @@
 
 <img src="https://user-images.githubusercontent.com/114602459/219393259-154fa9eb-4d3f-40cb-925a-08c50f1de041.png" width=150></img>&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/114602459/219393295-0285e3a2-a2b9-4487-9a41-362659e35f45.png" width=150></img>&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/114602459/219393301-0175a676-3e57-4cdc-b3ca-3bada492b241.png" width=150></img>&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/114602459/219393310-9f9a604a-f92a-4a50-9f67-0443d1ac126e.png" width=150></img>&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/114602459/219393314-f240605d-b9a3-41c9-ba43-00cb70d49d95.png" width=150></img>&nbsp;&nbsp;
 
-```
-✅ 동아리 출석 관리 앱, Check It !
-```
-
-### 프로젝트 기간
-> 2023.01.16 ~ 2023.02 (진행중)
-
-
-
-### ＞ 개발 목표
-
-```
-실제 동아리 활동을 하면서 겪은 불편함을 바탕으로 직접 사용하기 위해서 앱 개발이 시작 되었습니다.
-그 밖에 여러 예외 상황을 연구해 범용성을 높이고, HIG를 지키며 사용자 중심의 UI, UX 디자인에 초점을 두었습니다!
-```
+- 진행 기간
+    - 개발 : 2023.01.16 ~ 2023.02
+- 출시
+    - 1.0.0 : 2023.02
+- 기술 스택
+    - iOS : SwiftUI, VisionKit
+    - Deployment Target : iOS 16.0
+    - VisionKit 프레임워크를 사용하기 위해 16버전을 사용했습니다.
 
 <br/>
 

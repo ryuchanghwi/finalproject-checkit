@@ -21,11 +21,17 @@
 
 <br/>
 
-## 2. 주요 기능과 구현 영상
+# 📱 주요 화면 및 기능
 
-|<img src="https://user-images.githubusercontent.com/114602459/219415770-1c2fc0ba-bf89-4c06-b406-cfd7b97e7d9a.gif" width=200></img>|<img src="https://user-images.githubusercontent.com/114602459/219415926-9f99b934-9f61-4426-a65e-a417e7dcdad3.gif" width=200></img>|
-|:-:|:-:|
-|`0. Onboarding, Login`|`1. Calendar View`|
+> 🔖 온보딩, 로그인 플로우 - 앱의 설명과 앱을 사용하기 위한 소셜 로그인이 있습니다.
+<div align=leading>
+<img src="https://user-images.githubusercontent.com/114602459/219415770-1c2fc0ba-bf89-4c06-b406-cfd7b97e7d9a.gif" width=200>
+</div>
+
+> 🔖 일정 확인 플로우 - 캘린더를 통해 동아리 모임의 일정을 확인할 수 있습니다. 
+<div align=leading>
+<img src="https://user-images.githubusercontent.com/114602459/219415926-9f99b934-9f61-4426-a65e-a417e7dcdad3.gif" width=200>
+</div>
 
 <br>
 

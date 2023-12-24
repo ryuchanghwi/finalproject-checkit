@@ -30,7 +30,7 @@
 
 > 🔖 출석 체크 플로우 - 오프라인 장소 인근 50m에 다가가면 출석체크 버튼이 활성화됩니다. 버튼이 활성화되지 않을 경우 QR코드 스캔을 통해 출석체크가 가능합니다. 
 <div align=leading>
-<img src="https://user-images.githubusercontent.com/114602459/219385438-bf4cac84-1912-4ee5-88f9-8cfe1f479d7a.gif" width=200>
+<img src="https://github.com/ryuchanghwi/finalproject-checkit/assets/78063938/f7e11fff-ed19-4543-b056-251f40cb97cd" width=200>
 <img src="https://github.com/ryuchanghwi/finalproject-checkit/assets/78063938/3e29bb8d-4863-484e-8d6a-4f99ae2a0509" width=200>
 </div>
 

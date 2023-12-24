@@ -92,14 +92,7 @@ if changedAttendancList[index] != attendanceStore.attendanceList[index] {
 
 <br/>
 
-## 4. 개발 환경
-
-```
-- Xcode Version 14.2
-- SwiftUI, iOS 16.0
-- Auto layoout
-- Dark mode, Horizontal mode not supported
-```
+## 개발 환경
 
 |개발환경|선택한 방식|
 |:---:|:---:|
@@ -112,35 +105,9 @@ if changedAttendancList[index] != attendanceStore.attendanceList[index] {
 
 <br/>
 
-## 5. 기술 스택
 
 
- [**Platforms**]
-
- <img src="https://img.shields.io/badge/iOS-000000?style=flat&logo=Apple&logoColor=white"/> 
-
- [**Language & Tools**]
-
- <img src="https://img.shields.io/badge/Swift-dd2c00?style=flat&logo=swift&logoColor=white"/> <img src="https://img.shields.io/badge/SwiftUI-0D0D0D?style=flat&logo=swift&logoColor=blue"/> <img src="https://img.shields.io/badge/Xcode-00b0ff?style=flat&logo=Xcode&logoColor=white"/>
-<img src="https://img.shields.io/badge/Firebase-ff6d00?style=flat&logo=Firebase&logoColor=white"/> <img src="https://img.shields.io/badge/Figma-ff4081?style=flat&logo=Figma&logoColor=white"/>
-
- [**SNS Login**]
-
- <img src="https://img.shields.io/badge/kakaotalk-ffcd00?style=flat&logo=kakaotalk&logoColor=000000"/> <img src="https://img.shields.io/badge/Naver-00C300?style=flat&logo=naver&logoColor=white"/> <img src="https://img.shields.io/badge/Google-0288d1?style=flat&logo=Google&logoColor=white"/>
- 
-
-<br/>
-
-
-## 6. 참여자
-
-|허혜민<br/>[@soletree](https://github.com/soletree)|류창휘<br/>[@ryuchanghwi](https://github.com/ryuchanghwi)|윤예린<br/>[@blaire-pi](https://github.com/blaire-pi)|이학진<br/>[@LEEHAKJIN-VV](https://github.com/LEEHAKJIN-VV)|조현호<br/>[@HHCHO0220](https://github.com/HHCHO0220)|황예리<br/>[@hwangyeri](https://github.com/hwangyeri)|
-|:-:|:-:|:-:|:-:|:-:|:-:|
-|<img src="https://avatars.githubusercontent.com/u/97100404?v=4" width=150>|<img src="https://avatars.githubusercontent.com/u/78063938?v=4" width=150>|<img src="https://avatars.githubusercontent.com/u/56533266?v=4" width=150>|<img src="https://avatars.githubusercontent.com/u/52197436?v=4" width=150>|<img src="https://avatars.githubusercontent.com/u/109830398?v=4" width=150>|<img src="https://avatars.githubusercontent.com/u/114602459?v=4" width=150>
-
-<br/>
-
-## 7. 라이센스
+## 라이센스
 
 ```
 Alamofire

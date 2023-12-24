@@ -25,7 +25,7 @@
 
 > 🔖 온보딩, 로그인 플로우 - 앱의 설명과 앱을 사용하기 위한 소셜 로그인이 있습니다.
 <div align=leading>
-<img src="https://user-images.githubusercontent.com/114602459/219415770-1c2fc0ba-bf89-4c06-b406-cfd7b97e7d9a.gif" width=200>
+<img src="https://github.com/ryuchanghwi/finalproject-checkit/assets/78063938/d728d061-94ea-4da8-b6a7-bb408f65494f" width=200>
 </div>
 
 > 🔖 출석 체크 플로우 - 오프라인 장소 인근 50m에 다가가면 출석체크 버튼이 활성화됩니다. 버튼이 활성화되지 않을 경우 QR코드 스캔을 통해 출석체크가 가능합니다. 
@@ -39,6 +39,13 @@
 > 🔖 일정 확인 플로우 - 캘린더를 통해 동아리 모임의 일정을 확인할 수 있습니다. 
 <div align=leading>
 <img src="https://user-images.githubusercontent.com/114602459/219415926-9f99b934-9f61-4426-a65e-a417e7dcdad3.gif" width=200>
+</div>
+
+<br>
+
+> 🔖 출석 관리 플로우 - 방장은 자신의 동아리원의 출석을 직접 수정할 수 있습니다. 
+<div align=leading>
+<img src="https://github.com/ryuchanghwi/finalproject-checkit/assets/78063938/940d756d-5a9e-47eb-a519-1bb98ea63d4a" width=200>
 </div>
 
 <br>

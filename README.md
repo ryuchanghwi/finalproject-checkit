@@ -21,6 +21,40 @@
 
 <br/>
 
+# ⚠️Trouble Shooting
+### 1.출석부 수정 시 네트워크 통신을 최소화하기 위한 고민
+#### 문제점
+- Firebase FireStore를 통해 서버를 구축해 사용량에 제한이 있었고, 실제로 앱 개발을 하면서 사용량을 넘어 Firebase 프로젝트를 다시 만들었던 경험이 있었습니다. 특히 정보를 수정하는 ‘출석부 수정’ 부분에는 출석부를 수정할 때마다 서버를 호출했기 때문에 사용량에 부담을 주고 있다는 것을 알게 되었습니다. 
+#### 해결 방안
+- 서버에서 호출한 Published된 출석 명단 배열 값과 .onAppear 시에 `@State 변수`에 할당해 변화된 값을 관찰할 수 있게끔 했습니다. 또한 `.onChange 메서드`를 이용해 배열의 값이 변화하는 것을 비교해 버튼 활성화 여부를 결정했습니다. 출석 상태 배열의 값이 변하고 수정 버튼을 눌렀을 시, Published 된 값과 State에 할당한 배열을 비교해, 출석 상태가 변한 유저만 서버와 통신을 할 수 있게끔 했고 서버와의 통신을 최소화할 수 있었습니다.
+  
+`onAppear 시 @State 변수에 서버에서 가져온 데이터 할당`
+``` swift
+        .onAppear {
+            changedAttendancList = attendanceStore.attendanceList
+        }
+```
+
+`onChange 메서드를 통해 데이터 변화를 감지, 변화 된다면 버튼 활성화`
+``` swift
+        .onChange(of: changedAttendancList) { _ in
+            if changedAttendancList != attendanceStore.attendanceList {
+                changedAttendance = true
+            }
+            else {
+                changedAttendance = false
+            }
+        }
+```
+
+`출석부 수정 버튼 클릭 시 변화된 데이터만 서버에 요청`
+
+``` swift
+if changedAttendancList[index] != attendanceStore.attendanceList[index] {
+    attendanceStore.updateAttendace(attendanceData: changedAttendancList[index], scheduleID: schedule.id, uid: attendanceStore.attendanceList[index].id)
+}
+```
+
 # 📱 주요 화면 및 기능
 
 > 🔖 온보딩, 로그인 플로우 - 앱의 설명과 앱을 사용하기 위한 소셜 로그인이 있습니다.
